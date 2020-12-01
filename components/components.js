@@ -16,6 +16,7 @@
 //  -maalattavan tason tyyppikerroin – oletusarvo on 1 
 // (Esimerkiksi karkean pinnan maalaa-minen voi vaatia enemmän maalia, joten kerroin voisi olla vaikkapa 1.3.)
 
+
 //Tietoja suoritettavista laskemista: (Nämä tulee selvitä www-sivulta)
 
 //  -jokaiselle tilalle on laskettava maalin tarve sekä tämän aiheuttama kustannus
