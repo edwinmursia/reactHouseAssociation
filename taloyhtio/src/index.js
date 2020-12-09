@@ -1,15 +1,9 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import App from './App'
+import './muotoilut.css'
 
-const App = () => (
-  <div>
-    <p>Taloyhtiö</p>
-  </div>
+ReactDOM.render(
+  <App />,
+  document.getElementById('root')
 )
-
-const myfirstelement = <h1> Hello react</h1>
-
-
-ReactDOM.render(<App />, document.getElementById('root'))
-
-ReactDOM.render(<myfirstelement />, document.getElementById('root'))
