@@ -1,5 +1,5 @@
 body {
-	background-image: url("taustakuva.jpg");
+	background-image: url("../src/images/taustakuva.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-color: #ffffffff;
