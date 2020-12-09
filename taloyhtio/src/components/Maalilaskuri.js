@@ -1,7 +1,7 @@
 import React from 'react'
-import './muotoilut.css'
+import './Maalilaskuri.css'
 
-const App = () => {
+const Maalilaskuri = () => {
 
 return (
     <div>
@@ -32,4 +32,4 @@ return (
   )
 }
   
-export default App
+export default Maalilaskuri

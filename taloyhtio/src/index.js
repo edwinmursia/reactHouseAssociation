@@ -1,9 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App.js'
-import './muotoilut.css'
+import Maalilaskuri from './components/Maalilaskuri.js'
 
 ReactDOM.render(
-  <App />,
+  <Maalilaskuri />,
   document.getElementById('root')
 )
