@@ -2,9 +2,14 @@ import React, { useState } from 'react'
 import './Maalilaskuri.css'
 
 const Maalilaskuri = () => {
+    const [submitting, setSubmitting] = useState(false);
     const handleSubmit = event => {
         event.preventDefault();
-        alert('Tiedot lähetetty')
+        setSubmitting(true);
+
+        setTimeout(() => {
+            setSubmitting(false);
+        }, 3000)
     }
 
 return (
@@ -16,6 +21,9 @@ return (
         <h2>Käytä maalilaskuria:</h2>
 
         <div id="paintForm">
+            {submitting &&
+            <div>Lähetetään tietoja...</div>
+            }
             <form onSubmit={handleSubmit}>
                 <label htmlFor="paintName">Maalin nimi:</label> <br/>
                 <input type="text" id="paintName" name="paintName"/> <br/> <br/>
@@ -37,5 +45,3 @@ return (
 }
   
 export default Maalilaskuri
-
-
