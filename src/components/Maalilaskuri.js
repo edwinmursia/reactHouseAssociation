@@ -25,7 +25,7 @@ return (
                 <label htmlFor="paintingTimes">Maalauskertojen määrä:</label> <br/>
                 <input type="text" id="paintingTimes" name="paintingTimes"/> <br/> <br/>
 
-                <input type="submit" name="getInfo" value="Lähetä tiedot" />
+                <button type="submit">Lähetä tiedot</button>
             </form>
         </div>
     </div>
