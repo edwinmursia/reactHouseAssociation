@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './Maalilaskuri.css'
 
 const Maalilaskuri = () => {
+    const handleSubmit = event => {
+        event.preventDefault();
+        alert('Tiedot lähetetty')
+    }
 
 return (
     <div>
@@ -12,7 +16,7 @@ return (
         <h2>Käytä maalilaskuria:</h2>
 
         <div id="paintForm">
-            <form>
+            <form onSubmit={handleSubmit}>
                 <label htmlFor="paintName">Maalin nimi:</label> <br/>
                 <input type="text" id="paintName" name="paintName"/> <br/> <br/>
 
@@ -25,7 +29,7 @@ return (
                 <label htmlFor="paintingTimes">Maalauskertojen määrä:</label> <br/>
                 <input type="text" id="paintingTimes" name="paintingTimes"/> <br/> <br/>
 
-                <input type="submit" name="getInfo" value="Lähetä tiedot" />
+                <button type="submit">Lähetä tiedot</button>
             </form>
         </div>
     </div>
@@ -33,3 +37,5 @@ return (
 }
   
 export default Maalilaskuri
+
+
