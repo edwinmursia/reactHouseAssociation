@@ -1,0 +1,44 @@
+{
+    "nimi": "Paten taloyhtiö",
+    "puhnro": "+358123123",
+    "osoite": "Joukahaisenkatu 1",
+    "sahkopostiosoite": "pate@pates.fi",
+    "taloYhtionPintaAla": 5,
+    "tyyppi": "Kerrostalo",
+    "asunnot": [
+        {
+            "asunnonNumero": 1,
+            "rappu": "A",
+            "pintojenPintaAla": 80,
+            "huoneet": [
+                {
+                    "kuvaus": "Keittiö",
+                    "seinienPintaAla": 30
+                },
+                {
+                    "kuvaus": "Makuuhuone",
+                    "seinienPintaAla": 50
+                }
+            ]
+        },
+        {
+            "asunnonNumero": 2,
+            "rappu": "A",
+            "pintojenPintaAla": 140,
+            "huoneet": [
+                {
+                    "kuvaus": "Keittiö",
+                    "seinienPintaAla": 60
+                },
+                {
+                    "kuvaus": "Biljardihuone",
+                    "seinienPintaAla": 60
+                },
+                {
+                    "kuvaus": "Vessa",
+                    "seinienPintaAla": 20
+                }
+            ]
+        }
+    ]
+}

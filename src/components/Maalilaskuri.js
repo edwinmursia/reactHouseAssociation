@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import Taloyhtio from './Taloyhtio.js'
 import './Maalilaskuri.css'
 
 const Maalilaskuri = () => {
@@ -63,7 +64,7 @@ const Maalilaskuri = () => {
                 <div>Lähetetään tietoja...</div>
             }
             {maalinHinta && 
-                <h2>Maalin hinta: {maalinHinta} € </h2>
+                <h2>Taloyhtiö: <Taloyhtio hintaYhtiossa={maalinHinta}/> </h2>
             }
         </div>
     )
