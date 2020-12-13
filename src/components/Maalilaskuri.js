@@ -61,7 +61,7 @@ const Maalilaskuri = () => {
                 </form>
             </div>
             {submitting &&
-                <div>Lähetetään tietoja...</div>
+                <div><div class="lds-ring"><div></div><div></div><div></div><div></div></div></div>
             }
             {maalinHinta && 
                 <h2>Taloyhtiö: <Taloyhtio hintaYhtiossa={maalinHinta}/> </h2>
