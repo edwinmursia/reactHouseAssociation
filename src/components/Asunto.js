@@ -8,7 +8,13 @@ return (
         <p>Rappu: {rappu}</p>
         <p>Pintojen pinta-ala: {pintojenPintaAla}</p>
         <p><b>Asunnon maalaaminen maksaa: {maalinHinta * pintojenPintaAla} € </b></p>
-        <p>Huoneet: TO DO </p> 
+        <p>Huoneet:
+            <ul className="huoneet">
+                {huoneet.map((huoneet, i) =>
+                    <ol key={i}>{huoneet.kuvaus}, {huoneet.seinienPintaAla * maalinHinta} €</ol>
+                    
+                )}
+                </ul></p> 
     </div>
 )
 }

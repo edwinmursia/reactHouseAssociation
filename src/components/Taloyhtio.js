@@ -15,7 +15,7 @@ return (
         <p>@-mail: {Data.sahkopostiosoite}</p>
         <p>Taloyhtiön pinta-ala: {Data.taloYhtionPintaAla}</p>
         <p>Tyyppi: {Data.tyyppi}</p>
-        <p><b>Taloyhtiön maalaus maksaa yhteensä: {Data.taloYhtionPintaAla * hintaYhtiossa}</b></p>
+        <p><b>Taloyhtiön maalaus maksaa yhteensä: {Data.taloYhtionPintaAla * hintaYhtiossa} €</b></p>
         <p>Asunnot:</p>
         <br/>
 
