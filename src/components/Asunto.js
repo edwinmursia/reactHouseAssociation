@@ -5,7 +5,7 @@ const Asunto = ({ asunnonNumero, rappu, pintojenPintaAla, huoneet, maalinHinta, 
 return (
     <div id="box">
         <h2>Asunto {asunnonNumero}</h2>
-        <p>Rappu: {rappu}</p>
+        <p>Rappu:  {rappu}</p>
         <p>Pintojen pinta-ala: {pintojenPintaAla}</p>
         <p><b>Asunnon maalaamiseen menee: {maalinRiittoisuus * pintojenPintaAla} litraa maalia</b></p>
         <p style={{color: "#104b8f"}}><b>Asunnon maalaaminen maksaa: {maalinHinta * pintojenPintaAla} € </b></p>

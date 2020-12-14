@@ -35,7 +35,7 @@ const Maalilaskuri = () => {
     }
  
     return (
-        <div>
+        <div style={{textAlign: "center"}}>
             <h1>Maalilaskuri</h1>
  
             <h3 style={{padding: "0 0 20px 0"}}>Sovellus tulostaa maalitarpeen litroina ja tämän litramäärän hinnan euroina koko taloyhtiölle, kullekkin asunnolle ja asuntojen eri tiloille.</h3>
