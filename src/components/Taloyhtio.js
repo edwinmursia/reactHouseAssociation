@@ -17,7 +17,7 @@ return (
         <p>Taloyhtiön pinta-ala: {Data.taloYhtionPintaAla}</p>
         <p>Tyyppi: {Data.tyyppi}</p>
         <p>Maalin tarve yhteensä: {Data.taloYhtionPintaAla * maalitiedot.paintVolume} litraa</p>
-        <p style={{color: "blue"}}><b>Taloyhtiön maalaus maksaa yhteensä: {Data.taloYhtionPintaAla * hintaYhtiossa} €</b></p>
+        <p style={{color: "#104b8f"}}><b>Taloyhtiön maalaus maksaa yhteensä: {Data.taloYhtionPintaAla * hintaYhtiossa} €</b></p>
         <br/></div>
  
         {Data.asunnot.map((asunto, i) =>
