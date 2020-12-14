@@ -63,7 +63,7 @@ const Maalilaskuri = () => {
                 <div><div className="lds-ring"><div></div><div></div><div></div><div></div></div></div>
             }
             {maalinHinta && 
-                <h2>Taloyhtiö: <Taloyhtio
+                <h2><Taloyhtio
                  hintaYhtiossa={maalinHinta}
                  maalitiedot={maalitiedot}
                  /> </h2>
