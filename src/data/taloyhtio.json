@@ -18,6 +18,14 @@
                 {
                     "kuvaus": "Makuuhuone",
                     "seinienPintaAla": 50
+                },
+                {
+                    "kuvaus": "Olohuone",
+                    "seinienPintaAla": 70
+                },
+                {
+                    "kuvaus": "Vessa",
+                    "seinienPintaAla": 25
                 }
             ]
         },
@@ -29,6 +37,10 @@
                 {
                     "kuvaus": "Keittiö",
                     "seinienPintaAla": 60
+                },
+                {
+                    "kuvaus": "Keittokomero",
+                    "seinienPintaAla": 15
                 },
                 {
                     "kuvaus": "Biljardihuone",
