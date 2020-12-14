@@ -7,7 +7,7 @@ return (
         <h2>Asunto {asunnonNumero}</h2>
         <p>Rappu:  {rappu}</p>
         <p>Pintojen pinta-ala: {pintojenPintaAla}</p>
-        <p><b>Asunnon maalaamiseen menee: {maalinRiittoisuus * pintojenPintaAla} litraa maalia</b></p>
+        <p><b>Asunnon maalaamiseen menee: {pintojenPintaAla / maalinRiittoisuus} litraa maalia</b></p>
         <p style={{color: "#104b8f"}}><b>Asunnon maalaaminen maksaa yhteensä: {maalinHinta * pintojenPintaAla} € </b></p>
         <br></br>
         {huoneet.map((huone, i) =>
