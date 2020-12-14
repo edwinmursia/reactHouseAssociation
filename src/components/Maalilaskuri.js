@@ -38,7 +38,7 @@ const Maalilaskuri = () => {
         <div>
             <h1>Maalilaskuri</h1>
  
-            <p>Sovellus tulostaa maalitarpeen litroina ja tämän litramäärän hinnan euroina koko taloyhtiölle, kullekkin asunnolle ja asuntojen eri tiloille.</p>
+            <h3>Sovellus tulostaa maalitarpeen litroina ja tämän litramäärän hinnan euroina koko taloyhtiölle, kullekkin asunnolle ja asuntojen eri tiloille.</h3>
             <p> </p>
             <h2>Käytä maalilaskuria:</h2>
  
@@ -63,10 +63,10 @@ const Maalilaskuri = () => {
                 <div class="loading"><div className="lds-ring"><div></div><div></div><div></div><div></div></div></div>
             }
             {maalinHinta && 
-                <h2><Taloyhtio
+                <h3><Taloyhtio
                  hintaYhtiossa={maalinHinta}
                  maalitiedot={maalitiedot}
-                 /> </h2>
+                 /> </h3>
             }
         </div>
     )

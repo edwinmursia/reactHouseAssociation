@@ -9,6 +9,7 @@ console.log('data jaasoni', Data);
  
 return (
     <div>
+        <div id="box">
         <h2>Taloyhtiö</h2>
         <p>Yhtiön nimi: {Data.nimi}</p>
         <p>Puhelin: {Data.puhnro}</p>
@@ -17,7 +18,7 @@ return (
         <p>Tyyppi: {Data.tyyppi}</p>
         <p>Maalin tarve yhteensä: {Data.taloYhtionPintaAla * maalitiedot.paintVolume} litraa</p>
         <p style={{color: "blue"}}><b>Taloyhtiön maalaus maksaa yhteensä: {Data.taloYhtionPintaAla * hintaYhtiossa} €</b></p>
-        <br/>
+        <br/></div>
  
         {Data.asunnot.map((asunto, i) =>
             <Asunto

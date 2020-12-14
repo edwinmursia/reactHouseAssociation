@@ -3,7 +3,7 @@ import Huone from './Huone.js'
 const Asunto = ({ asunnonNumero, rappu, pintojenPintaAla, huoneet, maalinHinta, maalinRiittoisuus }) => {
 
 return (
-    <div>
+    <div id="box">
         <h2>Asunto {asunnonNumero}</h2>
         <p>Rappu: {rappu}</p>
         <p>Pintojen pinta-ala: {pintojenPintaAla}</p>
