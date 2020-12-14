@@ -7,7 +7,7 @@ return (
         <h2>Huone: {kuvaus}</h2>
         <p>Seinien pinta-ala: {seinienPintaAla}</p>
         <p><b>Huoneen maalaamiseen menee: {maalinRiittoisuus * seinienPintaAla} litraa maalia</b></p>
-        <p><b>Huoneen maalaaminen maksaa: {maalinHinta * seinienPintaAla} €</b></p>
+        <p style={{color: "blue"}}><b>Huoneen maalaaminen maksaa: {maalinHinta * seinienPintaAla} €</b></p>
     </div>
 )
 }

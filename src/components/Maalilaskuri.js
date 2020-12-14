@@ -60,7 +60,7 @@ const Maalilaskuri = () => {
                 </form>
             </div>
             {submitting &&
-                <div><div className="lds-ring"><div></div><div></div><div></div><div></div></div></div>
+                <div class="loading"><div className="lds-ring"><div></div><div></div><div></div><div></div></div></div>
             }
             {maalinHinta && 
                 <h2><Taloyhtio

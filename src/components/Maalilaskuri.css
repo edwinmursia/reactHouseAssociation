@@ -25,7 +25,6 @@ h2 {
 p	{
 	text-align: center;
 	color: #000000;
-	background-color: #ffffff;
 	}
 
 #paintForm {
@@ -48,6 +47,14 @@ p	{
 		
 
  /* Spinner from: https://loading.io/css/ */
+
+.loading {
+	margin-left: auto;
+  	margin-right: auto;
+	width: 50%;
+	text-align: center;
+	margin-top: 20px;
+}
 
  .lds-ring {
 	display: inline-block;
