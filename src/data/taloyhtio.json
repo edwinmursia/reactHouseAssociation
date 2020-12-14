@@ -3,13 +3,13 @@
     "puhnro": "+358123123",
     "osoite": "Joukahaisenkatu 1",
     "sahkopostiosoite": "pate@pates.fi",
-    "taloYhtionPintaAla": 220,
+    "taloYhtionPintaAla": 330,
     "tyyppi": "Kerrostalo",
     "asunnot": [
         {
             "asunnonNumero": 1,
             "rappu": "A",
-            "pintojenPintaAla": 80,
+            "pintojenPintaAla": 175,
             "huoneet": [
                 {
                     "kuvaus": "Keittiö",
@@ -32,7 +32,7 @@
         {
             "asunnonNumero": 2,
             "rappu": "A",
-            "pintojenPintaAla": 140,
+            "pintojenPintaAla": 155,
             "huoneet": [
                 {
                     "kuvaus": "Keittiö",
