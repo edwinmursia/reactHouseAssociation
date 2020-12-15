@@ -28,10 +28,10 @@ const Maalilaskuri = () => {
  
     const laskeMaalinHinta = (syötetytTiedot) => {
         const litraHinta = syötetytTiedot.paintPrice || 0;
-        const maalausKerrat = syötetytTiedot.paintTimes || 1;
-        const maalinRiittoisuus = syötetytTiedot.paintVolume || 0;
+        const maalausKerrat = syötetytTiedot.paintingTimes;  // tästä otettu "tai 1" pois  Anna
+        // const maalinRiittoisuus = syötetytTiedot.paintVolume || 0;
  
-        return (litraHinta + maalinRiittoisuus) * maalausKerrat;
+        return litraHinta * maalausKerrat;
     }
  
     return (

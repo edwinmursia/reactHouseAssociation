@@ -16,8 +16,8 @@ return (
         <p>@-mail: {Data.sahkopostiosoite}</p>
         <p>Taloyhtiön pinta-ala: {Data.taloYhtionPintaAla}</p>
         <p>Tyyppi: {Data.tyyppi}</p>
-        <p>Maalin tarve yhteensä: {Data.taloYhtionPintaAla / maalitiedot.paintVolume} litraa</p>
-        <p style={{color: "#104b8f"}}><b>Taloyhtiön maalaus maksaa yhteensä: {Data.taloYhtionPintaAla / maalitiedot.paintVolume * hintaYhtiossa} €</b></p>
+        <p>Maalin tarve yhteensä: {Data.taloYhtionPintaAla / maalitiedot.paintVolume * maalitiedot.paintingTimes} litraa</p>
+        <p style={{color: "#104b8f"}}><b>Taloyhtiön maalaus maksaa yhteensä: {Data.taloYhtionPintaAla / maalitiedot.paintVolume * maalitiedot.paintPrice * maalitiedot.paintingTimes} €</b></p>
         <br/></div>
  
         {Data.asunnot.map((asunto, i) =>
@@ -29,6 +29,7 @@ return (
                 huoneet={asunto.huoneet}
                 maalinHinta={hintaYhtiossa}
                 maalinRiittoisuus={maalitiedot.paintVolume}
+                maalausKerrat={maalitiedot.paintingTimes}
             />
         )}
  
